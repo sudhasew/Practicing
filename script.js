@@ -42,3 +42,15 @@ while (true) {
     break;
   }
 }
+
+var hours = prompt("please enter the hours");
+var wage = prompt("please enter the wage per hour");
+var extrahours = prompt("please enter the extra hours");
+let pay;
+
+if (hours <= 40) {
+  pay = hours * wage;
+} else if (hours > 40) {
+  pay = hours * wage + extrahours * (wage / 2);
+}
+console.log(pay);
