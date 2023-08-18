@@ -1,7 +1,7 @@
 const personalDetails = {
   name: "Sudha",
   age: 32,
-  birthday: "December 14",
+  birthday: "December 16",
   pineapplePizza: false,
 };
 
